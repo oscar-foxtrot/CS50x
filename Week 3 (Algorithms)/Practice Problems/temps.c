@@ -59,8 +59,6 @@ int main(void)
     }
 }
 
-avg_temp tmparr[NUM_CITIES];
-
 // SELECTION SORT
 void sort_cities()
 {
