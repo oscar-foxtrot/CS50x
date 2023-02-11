@@ -1,0 +1,27 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+1. Takes quadratically more time in case of a larger list: 10x times larger list means 100x more time (same as sort3),
+which is the case for bubble sort.
+2. In the best case, the minimum execution time increases as n, which is the case for bubble sort.
+Namely, in the best case scenario bubble sort algorithm goes through the whole list one time,
+every time leaving modification counter at its initial level,
+because the elements in the pairs are not swapped.
+In the end the algorithm knows that the list is sorted, because there have been no swaps.
+
+sort2 uses: Merge sort
+
+How do you know?:
+According to theory, in case of a n*log(n)-complex algorithm, if the size of a list of elements increases by 10 times,
+then the execution time should increase by roughly 10 times if the log base is 2 which is the case here:
+10 * n * log(10 * n) / (n * log(n)) = 10 * log(10n) / log(n) = 10 * (log(n) + log(10)) / log(n)
+It is obvious that in "(log(n) + log(10)) / log(n)" logarithm of  10 is insignificant when it comes to large enough n's.
+And we can notice that the execution takes roughly 10 times more in case of 10x larger list
+
+sort3 uses: Selection sort
+
+How do you know?:
+1. Takes quadratically more time in case of a larger list: 10x times larger list means 100x more time (same as sort1),
+which is the case for selection sort.
+2. Independently of the how well-sorted the initial list is, the minimum execution time increases as n squared,
+which is the case for selection sort.
