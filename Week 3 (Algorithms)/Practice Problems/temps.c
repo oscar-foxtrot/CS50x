@@ -61,6 +61,7 @@ int main(void)
 
 avg_temp tmparr[NUM_CITIES];
 
+// SELECTION SORT
 void sort_cities()
 {
     for (int i = 0; i < NUM_CITIES - 1; ++i)
