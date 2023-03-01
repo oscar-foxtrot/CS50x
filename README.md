@@ -2,7 +2,7 @@
 Course offered by Harvard University on edX platform  
 
 ## This repo includes:
-* Some practice problems
+*Some practice problems
 * Solutions for problem sets
 * Labs solutions
 
