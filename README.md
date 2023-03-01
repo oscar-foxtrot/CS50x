@@ -2,9 +2,9 @@
 Course offered by Harvard University on edX platform  
 
 ## This repo includes:
-* Solutions for problem sets
+* Solutions to problem sets
 * Labs solutions
-* Some practice problems
+* Some practice problems solutions
 
 The solutions may contain the cs50.h header file and the corresponding functions and types which are not a part of the standard library.
 These should work fine in the CS50's cloud-based version of VSCode at https://code.cs50.io/
