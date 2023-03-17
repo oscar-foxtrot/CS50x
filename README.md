@@ -10,4 +10,4 @@ The solutions may contain the cs50.h header file and the corresponding functions
 These should work fine in the CS50's cloud-based version of VSCode at https://code.cs50.io/
 In any case the library could be downloaded at https://github.com/cs50/libcs50  
 
-Status: in progress of completion 🕐
+Status: in progress 🕐
