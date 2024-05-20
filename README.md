@@ -1,4 +1,4 @@
-# CS50x 2023 / CS50's Introduction to Computer Science  
+# CS50x 2023/2024 / CS50's Introduction to Computer Science  
 Course offered by Harvard University on edX platform  
 
 ## This repo includes:
