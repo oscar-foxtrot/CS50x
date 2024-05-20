@@ -10,4 +10,7 @@ The solutions may contain the cs50.h header file and the corresponding functions
 These should work fine in the CS50's cloud-based version of VSCode at https://code.cs50.io/
 In any case the library could be downloaded at https://github.com/cs50/libcs50  
 
+NOTE: Week 0 to 6 tasks are taken from CS50 2023 <br>
+However, week 6 and beyond are related to CS50 2024
+
 Status: in progress 🕐
