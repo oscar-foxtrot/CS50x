@@ -1,0 +1,10 @@
+1. The person definitely likes rap.
+It would be an interesting task to determine the race of the listener
+(purely to practice machine learning skills),
+as the playlist appers to be featuring prevalently black artists
+and it may have something to do with the race.
+The listener is probably a bit depressed, sad, melancholic.
+Answer: melancholic, sad
+
+2. I listened to the songs, therefore the impression is subjective, as it has bias of mine.
+I suggest using machine learning techniques in order to get the answer, using data on a couple of millions of people and then predicting for our person.
