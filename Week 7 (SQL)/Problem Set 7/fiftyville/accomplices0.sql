@@ -1,4 +1,4 @@
-```sql
+---Use Transact-SQL
 SELECT * FROM people WHERE id IN (
     -- Suspects based on fact 3 (received calls)
     SELECT id FROM (
