@@ -25,9 +25,11 @@
                 if (document.querySelector('#form').value == '8') {
                     document.querySelector('#form').style.backgroundColor =
                         'rgba(0, 255, 0, 0.2)';
+                    document.querySelector('#q2').innerHTML = 'Correct!';
                 } else {
                     document.querySelector('#form').style.backgroundColor =
                         'rgba(255, 0, 0, 0.2)';
+                    document.querySelector('#q2').innerHTML = 'Incorrect';
                 }
             }
         </script>
@@ -59,6 +61,7 @@
                     What's the CS50 2024 course week's number that this task is given on?<br>
                     (Provide a number in the form of a sequence of digits)
                 </h3>
+                <div id='q2'></div>
                 <input type='text' id='form'>
                 <button onclick='changeBackgroundForm()'>
                     Check answer
