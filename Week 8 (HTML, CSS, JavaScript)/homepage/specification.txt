@@ -1,0 +1,19 @@
+script
+meta
+link
+nav
+div
+button
+span
+ul
+li
+canvas
+
+opacity
+display
+overflow
+position
+margin
+
+Bootstrap use case: navigation bar
+Javascript use case: interactive graphics for website's background
