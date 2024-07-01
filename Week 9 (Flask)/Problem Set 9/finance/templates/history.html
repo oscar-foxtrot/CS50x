@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+{% block main %}
+    <div class="mb-5">
+        Transaction history
+    </div>
+    {% for row in transactions %}
+        <div class="mb-3">
+            {% if row['shares'] > 0 %}
+                Date: {{ row['timestamp'] }} | Stock: {{ row['stock_symbol'] }} | Type: BUY | Balance change: {{ row['shares_price'] }} | Shares bought: {{ row['shares'] }} | Each: {{ row['share_price'] }}
+            {% else %}
+                Date: {{ row['timestamp'] }} | Stock: {{ row['stock_symbol'] }} | Type: SELL | Balance change: {{ row['shares_price'] }} | Shares sold: {{ -row['shares'] }} | Each: {{ row['share_price'] }}
+            {% endif %}
+        </div>
+    {% endfor %}
+{% endblock %}

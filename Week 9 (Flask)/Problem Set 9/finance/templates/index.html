@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+{% block main %}
+    <div class="mb-5">
+        Portfolio value: {{ grand_total }}
+    </div>
+    {% for row in portfolio_data %}
+        <div class="mb-3">
+            <div class="mb-3">
+                {{ row['stock_symbol'] }}: {{ row['quantity'] }} | Each: {{ row['share_price'] }} | Total: {{ row['shares_price'] }}
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="container mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <form action="/sell" method="post" class="d-flex align-items-center">
+                                <input type="hidden" name="symbol" value="{{ row['stock_symbol'] }}">
+                                <input autocomplete="off" autofocus class="form-control mx-1" name="shares" placeholder="Number of shares" type="number" style="max-width: 200px;">
+                                <button class="btn btn-primary mx-1" type="submit">Sell</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="container mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <form action="/buy" method="post" class="d-flex align-items-center">
+                                <input type="hidden" name="symbol" value="{{ row['stock_symbol'] }}">
+                                <input autocomplete="off" autofocus class="form-control mx-1" name="shares" placeholder="Number of shares" type="number" style="max-width: 200px;">
+                                <button class="btn btn-primary mx-1" type="submit">Buy</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    <div class="mb-3">
+        USD: {{ balance }}
+    </div>
+{% endblock %}
