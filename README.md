@@ -13,6 +13,6 @@ In any case the library could be downloaded at https://github.com/cs50/libcs50
 ## NOTE:
 Week 0 to week 6 tasks are taken from CS50 **2023**
 <br>
-However, weeks 7 (included) and beyond are related to CS50 **2024**
+Weeks 7 (included) and beyond are related to CS50 **2024**
 <br>  <br>
 Status: in progress 🕐
