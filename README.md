@@ -1,5 +1,5 @@
 # CS50x 2023-2024 / CS50's Introduction to Computer Science  
-Course offered by Harvard University on edX platform  
+Course offered by Harvard University on the edX platform  
 
 ## This repo includes:
 * Solutions to problem sets
